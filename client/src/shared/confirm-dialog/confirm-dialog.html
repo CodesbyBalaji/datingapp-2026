@@ -1,0 +1,14 @@
+<dialog 
+  #dialogRef 
+  class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-xl p-0 backdrop:bg-black/50"
+>
+    <div class="model-box text-center p-5 min-w-75">
+        <h3 class="font-bold text-lg">{{message}}</h3>
+        <p class="py-2">This action cannot be undone</p>
+
+        <div class="modal-action flex justify-around mt-3">
+            <button class="btn btn-outline" (click)="cancel()">Cancel</button>
+            <button class="btn btn-primary" (click)="confirm()">Confirm</button>
+        </div>
+    </div>
+</dialog>
