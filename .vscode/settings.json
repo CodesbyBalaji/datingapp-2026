@@ -1,3 +1,5 @@
 {
-    "dotnet.enableWorkspaceBasedDevelopment": true
+    "dotnet.enableWorkspaceBasedDevelopment": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/10433eff-9c27-4e1b-8ea3-216b3f96eae4/resourceGroups/da-2025-rg/providers/Microsoft.Web/sites/balajitrainingapp",
+    "appService.deploySubpath": "API/bin/Publish"
 }
